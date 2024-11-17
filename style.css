@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color:#1b1a19;
+    
+
+}
+.container{
+    width: 340px;
+    height: 120px;
+    background-color: #1b1a19;
+    border: 2px solid burlywood;
+    box-shadow: 4px 4px 16px 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex
+    
+}
+.container div{
+    font-size: 40px;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    color: white;
+    
+}
+.container div ::after{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
+
+    
